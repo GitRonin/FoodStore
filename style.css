@@ -1,0 +1,854 @@
+/* General */
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1F1F1F;
+    background-color: #fff;
+}
+
+button {
+    border: none;
+    background: #FF8126;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+/* General */
+
+/* Univarsal classes */
+.orange {
+    color: #FF8126;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+/* Univarsal classes */
+
+/* Green Block */
+.green_block {
+    height: 50px;
+    background: #C2E8CE;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green_block__text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.green_block__close {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    cursor: pointer;
+}
+/* Green Block */
+
+/* HEADER */
+header {
+    display: flex;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 55px;
+}
+
+.header__search__mobile {
+    display: none;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.header__pagination {
+    display: flex;
+}
+
+.header__pagination__item {
+    flex: 1 1 auto;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.header__pagination__item__accordion {
+    margin-left: 7px;
+    /* transform: rotate(-180deg); */
+}
+
+.header__icons {
+    display: flex;
+}
+
+.header__icons__item {
+    flex: 1 1 auto;
+    margin: 0 5px;
+    border: 1px solid #BFBFBF;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.header__icons__item__count {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    background: #FF8126;
+    border-radius: 50%;
+    color: #fff;
+    top: 0;
+    font-family: 'Poppins',  sans-serif;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* HEADER */
+
+/* Main Picture */
+.main_section {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 55px;
+    position: relative;
+    /* background: center / cover no-repeat url('/assets/main_picture/main_picture.svg'); */
+}
+
+.main_section__title {
+    font-family: 'Cormorant',  sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    z-index: 2;
+}
+
+.main_section__description {
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    z-index: 2;
+}
+
+.main_section__button {
+    margin-top: 40px;
+    padding: 8px 38px;
+    z-index: 2;
+}
+
+.main_section__image {
+    position: absolute;
+    left: 0;
+}
+
+
+/* Main Picture */
+
+/* Latest Offers */
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 55px;
+}
+
+.offers__title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.offers__cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__cards__item {
+    flex: 1 1 auto;
+    margin: 15px 15px;
+    height: 332px;
+    max-width: 270px;
+    width: 270px;
+    border-radius: 20px;
+    background: #F7F5F0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offers__cards__item__name {
+    margin-top: 20px;
+    line-height: 27px;
+}
+
+.offers__cards__item__prices {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offers__cards__item__prices__price {
+    flex: 1 1 auto;
+    margin: 0 5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FF8126;
+}
+
+.crossed_out {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: line-through;
+    color: #656565;
+}
+
+.offers__cards__item__button {
+    margin-top: 20px;
+    width: 230px;
+    height: 40px;
+}
+/* Latest Offers */
+
+/* Why Choose */
+.why_choose {
+    display: flex;
+    flex-direction: column;
+    margin: 0 55px;
+}
+
+.why_choose__title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.why_choose__list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why_choose__list__item {
+    flex: 1 1 auto;
+    margin: 0 15px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.why_choose__list__item__image {
+    width: 44px;
+    height: 44px;
+}
+
+.why_choose__list__item__title {
+    margin-top: 20px;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+}
+
+.why_choose__list__item__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+/* Why Choose */
+
+/* Who Makes */
+.who_makes {
+    margin: 0 55px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.who_makes__text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.who_makes__text__title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.who_makes__text__subtitle {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.who_makes__image__mobile {
+    display: none;
+}
+
+.who_makes__text__list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.who_makes__text__list__item__icon {
+    width: 24px;
+    height: 24px;
+    background-color: #FF8126;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.who_makes__text__list__item {
+    display: flex;
+    flex: 1 1 auto;
+    margin: 15px 0;
+    height: auto;
+}
+
+.who_makes__text__list__item__text {
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.who_makes__text__button {
+    padding: 9px 30px;
+    width: fit-content;
+    margin-top: 30px;
+}
+/* Who Makes */
+
+/* Our Charity */
+.our_charity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+    height: 395px;
+    background: center / contain no-repeat url("assets/our_charity/background.svg"),#6090C3;
+}
+
+.our_charity__title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.our_charity__logo {
+    margin-top: 30px;
+}
+
+.our_charity__button {
+    margin-top: 30px;
+    padding: 9px 10px;
+}
+/* Our Charity */
+
+/* Surprise Someone */
+.surprise_someone {
+    display: flex;
+    margin: 0 55px;
+}
+
+.surprise_someone__text {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.surprise_someone__text__title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.surprise_someone__text__description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.surprise_someone__text__description__2 {
+    margin-top: 20px;
+}
+
+.surprise_someone__button {
+    margin-top: 30px;
+    width: 140px;
+}
+/* Surprise Someone */
+
+/* Instagrm */
+.instagram {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram__title {
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.instagram__slider {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instagram__slider__arrow {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #B3B3B3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.arrow_right {
+    background: #FF8126;
+    stroke: #fff;
+    border: 1px solid #FF8126;
+}
+
+.arrow_right svg{
+    stroke: #fff;
+}
+
+.instagram__slider__item {
+    flex: 1 1 auto;
+    margin: 0 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+}
+
+.instagram__slider__item img {
+    width: 156px;
+    height: 156px;
+}
+/* Instagrm */
+
+/* Tell a friend */
+.tell_friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+    background: center / contain no-repeat url("assets/tell_a_friend/background.svg"), rgba(255, 129, 38, 0.12) ;
+}
+
+.tell_friend__title {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.tell_friend__icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.tell_friend__icons__item {
+    width: 60px;
+    height: 60px;
+    flex: 1 1 auto;
+    margin: 0 15px;
+    cursor: pointer;
+}
+/* Tell a friend */
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 55px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo img {
+    cursor: pointer;
+}
+
+.footer__item__title {
+    font-family: 'Poppins',  sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.footer__item__elements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.footer__item__element {
+    flex: 1 1 auto;
+    margin: 5px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3D3D3D;
+    cursor: pointer;
+}
+/* Footer */
+
+/* MEDIA ADAPTATION */
+@media (max-width: 360px) {
+
+/* Green Block */
+
+.green_block {
+    justify-content: flex-start;
+}
+
+.green_block__text {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 15px;
+}
+
+/* Green Block */
+
+/* Header */
+
+header {
+    padding: 10px 16px;
+}
+
+.header__icons__item {
+    width: 32px;
+    height: 32px;
+}
+
+.header__search__mobile {
+    display: flex;
+}
+
+.header__search__mobile img {
+    width: 12px;
+    height: 12px;
+}
+
+.header__pagination {
+    display: none;
+}
+
+.header__icons {
+    display: none;
+}
+
+.header__burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FF8126;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+/* Header */
+
+/* Main Picture */
+.main_section  {
+    padding: 20px 0;
+    height: 435px;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 360px;
+    /* background: center / cover no-repeat url('/assets/main_picture/main_picture.svg'); */
+}
+
+.main_section__title {
+    font-size: 28.7719px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.main_section__description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14.9614px;
+    line-height: 22px;
+}
+
+.main_section__button {
+    margin-top: 10px;
+}
+
+.main_section__image img {
+    height: 435px;
+}
+
+/* Main Picture */
+
+/* Latest Offers */
+.offers {
+    margin-top: 30px;
+}
+
+.offers__title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.offers__cards {
+    margin-top: 5px;
+    flex-direction: column;
+}
+/* Lattest Offerc */
+
+/* Why Choose the Premium Bakery Quality */
+.why_choose {
+    margin: 0 16px;
+}
+.why_choose__title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.why_choose__list {
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.why_choose__list__item {
+    margin: 25px 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.why_choose__list__item__image {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+/* Why Choose the Premium Bakery Quality */
+
+/* Who Makes */
+.who_makes {
+    flex-direction: column;
+    margin: 0 16px;
+    margin-top: 50px;
+}
+
+.who_makes__text {
+    margin-right: 0;
+}
+
+.who_makes__text__title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.who_makes__text__subtitle {
+    margin: 10px 0;
+}
+
+.who_makes__image {
+    display: none;
+}
+
+.who_makes__image__mobile {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.who_makes__text__list {
+    margin-top: 10px;
+}
+
+.who_makes__text__list__item__text {
+    width: 100%;
+}
+
+/* Who Makes */
+
+/* Our Charity */
+.our_charity {
+    padding: 50px 16px;
+    text-align: center;
+    background: center / cover no-repeat url("assets/our_charity/background.svg"),#6090C3;
+}
+
+.our_charity__button {
+    width: 100%;
+}
+/* Our Charity */
+
+/* Surprise Someone */
+.surprise_someone {
+    margin: 0 16px;
+}
+
+.surprise_someone__image {
+    display: none;
+}
+
+.surprise_someone__text {
+    margin: 0;
+}
+
+.surprise_someone__text__title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.surprise_someone__text__description {
+    margin-top: 30px;
+}
+/* Surprise Someone */
+
+/* Instagram */
+.instagram {
+    margin: 100px 16px;
+}
+
+.instagram__title {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.instagram__slider {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.instagram__slider__arrow {
+    display: none;
+}
+/* Instagram */
+
+/* Tell a Friend */
+.tell_friend {
+    background: center / cover no-repeat url("assets/tell_a_friend/background.svg"), rgba(255, 129, 38, 0.12) ;
+}
+
+.tell_friend__icons {
+    flex-wrap: wrap;
+}
+
+.tell_friend__icons img {
+    flex: 1 1 auto;
+    margin: 15px 15px;
+}
+/* Tell a Friend */
+
+/* Footer */
+.footer {
+    flex-direction: column;
+    margin: 50px 16px;
+}
+
+.footer__logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.footer__item__title {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer__item {
+    flex: 1 1 auto;
+    margin: 70px 0;
+}
+
+.footer__item__element {
+    font-size: 20px;
+    line-height: 30px;
+}
+/* Footer */
+
+}
+/* MEDIA ADAPTATION */

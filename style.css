@@ -262,7 +262,7 @@ button:active {
     justify-content: center;
     padding: 0 55px;
     position: relative;
-    background: center / cover no-repeat url('/assets/main_picture/main_picture.svg');
+    background: center / cover no-repeat url("assets/main_picture/main_picture.svg");
 }
 
 .main_section__title {
@@ -1016,7 +1016,7 @@ footer {
     justify-content: flex-start;
     align-items: center;
     max-width: 360px;
-    background: center / cover no-repeat url('/assets/main_picture/main_picture.svg');
+    background: center / cover no-repeat url('assets/main_picture/main_picture.svg');
 }
 
 .main_section__title {

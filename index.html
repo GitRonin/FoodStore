@@ -10,314 +10,431 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Poppins:wght@300;400;500;600&;400display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <!-- Fonts -->
+    <!-- Meta -->
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta by="GitRonin">
+    <!-- Meta -->
     <title>Food Store</title>
 </head>
 <body>
     
     <!-- Green Block -->
     <section class="green_block">
-        <div class="green_block__text">Free Delivery over $100. Gift with Purchase over $150</div>
-        <div class="green_block__close"><img src="assets/green_block/close.svg" alt="close"></div>
+        <div title="Free Delivery over $100. Gift with Purchase over $150" class="green_block__text">Free Delivery over $100. Gift with Purchase over $150</div>
+        <div title="Close" class="green_block__close"><img src="assets/green_block/close.svg" alt="close"></div>
     </section>
     <!-- Green Block -->
 
     <!-- Header -->
     <header>
-        <!-- Mobile -->
-        <div class="header__search__mobile">
-            <div class="header__icons__item">
-                <img src="assets/header/search.svg" alt="search" />
+        <div class="search_logo_button">
+            <!-- Mobile -->
+            <div class="header__search__mobile">
+                <div class="header__icons__item header__icons__item__mobile__search">
+                    <img src="assets/header/search.svg" alt="search" />
+                </div>
             </div>
+            <!-- Mobile -->
+            <img class="header__logo" src="assets/header/logo.svg" alt="Logo"/>
+            <nav class="header__pagination">
+                <div class="header__pagination__item" title="Occasion"  data-type="occasion">
+                    <div class="header__pagination__item__title">Occasion</div>
+                    <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" />
+                    <div class="header__pagination__item__list">
+                        <div title="Occasions">Occasions</div>
+                        <div title="Working From Home">Working From Home</div>
+                        <div title="Snack Time">Snack Time</div>
+                        <div title="Vegan Life">Vegan Life</div>
+                        <div title="Baking">Baking</div>
+                        <div title="Gifts & Bundles">Gifts & Bundles</div>
+                        <div title="Easy Cooking">Easy Cooking</div>
+                        <div title="All Products">All Products</div>
+                    </div>
+                </div>
+                <div class="header__pagination__item" title="All Categories" data-type="allCategories">
+                    <div class="header__pagination__item__title">All Categories</div>
+                    <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" />
+                    <div class="header__pagination__item__list">
+                        <div title="Baking">Baking</div>
+                        <div title="Breakfast">Breakfast</div>
+                        <div title="Condiments">Condiments</div>
+                        <div title="Drinks">Drinks</div>
+                        <div title="Heat Things Up">Heat Things Up</div>
+                        <div title="Meal Solutions">Meal Solutions</div>
+                        <div title="Pantry Stadivles">Pantry Stadivles</div>
+                        <div title="Simmer Sauces">Simmer Sauces</div>
+                        <div title="Snacks & Treats">Snacks & Treats</div>
+                        <div title="Sdivice Udiv Your Cooking">Sdivice Udiv Your Cooking</div>
+                        <div title="Sweet Tooth">Sweet Tooth</div>
+                        <div title="Wine & Cheese">Wine & Cheese</div>
+                        <div title="All Products">All Products</div>
+                    </div>
+                </div>
+                <div class="header__pagination__item" title="Gifts & Bundles" data-type="giftsBundles">
+                    <div class="header__pagination__item__title">Gifts & Bundles</div>
+                    <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" />
+                    <div class="header__pagination__item__list">
+                        <div title="Sweet Tooth Special">Sweet Tooth Special</div>
+                        <div title="Discover Local">Discover Local</div>
+                        <div title="Baking Box">Baking Box</div>
+                        <div title="Spicy Heat Lover's Box">Spicy Heat Lover's Box</div>
+                        <div title="Snacking Sensations">Snacking Sensations</div>
+                    </div>
+                </div>
+                <div class="header__pagination__item" title="Our Brands" data-type="ourBrands">
+                    <div class="header__pagination__item__title">Our Brands</div>
+                </div>
+                <div class="header__pagination__item" title="About Us" data-type="aboutUs">
+                    <div class="header__pagination__item__title">About Us</div>
+                </div>
+            </nav>
+            <nav class="header__icons">
+                <div title="Search" class="header__icons__item"><img src="assets/header/search.svg" alt="search" /></div>
+                <div title="Profile" class="header__icons__item"><img src="assets/header/profile.png" alt="profile" /></div>
+                <div title="Card" class="header__icons__item">
+                    <img src="assets/header/card.svg" alt="card" />
+                    <span class="header__icons__item__count">23</span>
+                </div>
+            </nav>
+            <!-- Mobile -->
+            <div class="header__burger">
+                <img title="" class="header__burger__img" src="assets/header/burger.svg" alt="img" />
+                <span title="Close" class="header__burger__close">X</span>
+            </div>
+            <!-- Mobile -->
         </div>
-        <!-- Burger Menu -->
-
-        
-
-        <!-- Burger Menu -->
         <!-- Mobile -->
-        <img class="header__logo" src="assets/header/logo.svg" alt="Logo"/>
-        <nav class="header__pagination">
-            <div class="header__pagination__item">Occasion <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" /></div>
-            <div class="header__pagination__item">All Categories <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" /></div>
-            <div class="header__pagination__item">Gifts & Bundles <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" /></div>
-            <div class="header__pagination__item">Our Brands</div>
-            <div class="header__pagination__item">About Us</div>
-        </nav>
-        <nav class="header__icons">
-            <div class="header__icons__item"><img src="assets/header/search.svg" alt="search" /></div>
-            <div class="header__icons__item"><img src="assets/header/profile.png" alt="profile" /></div>
-            <div class="header__icons__item">
-                <img src="assets/header/card.svg" alt="card" />
-                <span class="header__icons__item__count">23</span>
+        <div class="burger">
+            <div class="burger__icons">
+                <div title="Profile" class="header__icons__item"><img src="assets/header/profile.png" alt="profile" /></div>
+                <div title="Card" class="header__icons__item">
+                    <img src="assets/header/card.svg" alt="card" />
+                    <span class="header__icons__item__count">23</span>
+                </div>
             </div>
-        </nav>
-        <!-- Mobile -->
-        <div class="header__burger">
-            <img src="assets/header/burger.svg" alt="img" />
+            <nav class="header__pagination__mobile">
+                <div class="header__pagination__item" title="Occasion"  data-type="occasion">
+                    <div class="header__pagination__item__title">Occasion</div>
+                    <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" />
+                    <div class="header__pagination__item__list">
+                        <div title="Occasions">Occasions</div>
+                        <div title="Working From Home">Working From Home</div>
+                        <div title="Snack Time">Snack Time</div>
+                        <div title="Vegan Life">Vegan Life</div>
+                        <div title="Baking">Baking</div>
+                        <div title="Gifts & Bundles">Gifts & Bundles</div>
+                        <div title="Easy Cooking">Easy Cooking</div>
+                        <div title="All Products">All Products</div>
+                    </div>
+                </div>
+                <div class="header__pagination__item" title="All Categories" data-type="allCategories">
+                    <div class="header__pagination__item__title">All Categories</div>
+                    <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" />
+                    <div class="header__pagination__item__list">
+                        <div title="Baking">Baking</div>
+                        <div title="Breakfast">Breakfast</div>
+                        <div title="Condiments">Condiments</div>
+                        <div title="Drinks">Drinks</div>
+                        <div title="Heat Things Up">Heat Things Up</div>
+                        <div title="Meal Solutions">Meal Solutions</div>
+                        <div title="Pantry Stadivles">Pantry Stadivles</div>
+                        <div title="Simmer Sauces">Simmer Sauces</div>
+                        <div title="Snacks & Treats">Snacks & Treats</div>
+                        <div title="Sdivice Udiv Your Cooking">Sdivice Udiv Your Cooking</div>
+                        <div title="Sweet Tooth">Sweet Tooth</div>
+                        <div title="Wine & Cheese">Wine & Cheese</div>
+                        <div title="All Products">All Products</div>
+                    </div>
+                </div>
+                <div class="header__pagination__item" title="Gifts & Bundles" data-type="giftsBundles">
+                    <div class="header__pagination__item__title">Gifts & Bundles</div>
+                    <img class="header__pagination__item__accordion" src="assets/header/accordion.svg" alt="img" />
+                    <div class="header__pagination__item__list">
+                        <div title="Sweet Tooth Special">Sweet Tooth Special</div>
+                        <div title="Discover Local">Discover Local</div>
+                        <div title="Baking Box">Baking Box</div>
+                        <div title="Spicy Heat Lover's Box">Spicy Heat Lover's Box</div>
+                        <div title="Snacking Sensations">Snacking Sensations</div>
+                    </div>
+                </div>
+                <div class="header__pagination__item" title="Our Brands" data-type="ourBrands">
+                    <div class="header__pagination__item__title">Our Brands</div>
+                </div>
+                <div class="header__pagination__item" title="About Us" data-type="aboutUs">
+                    <div class="header__pagination__item__title">About Us</div>
+                </div>
+            </nav>
         </div>
         <!-- Mobile -->
     </header>
     <!-- Header -->
 
-    <!-- Main Picture -->
-    <section class="main_section">
-        <div class="main_section__title">Support Your Local Artisans</div>
-        <div class="main_section__description">Discover brands and theit stories</div>
-        <button class="main_section__button">Browse bands</button>
-        <div class="main_section__image">
-            <img src="assets/main_picture/main_picture.svg" alt="img">
-        </div>
-    </section>
-    <!-- Main Picture -->
+    <main>
+        <!-- Main Picture -->
+        <section class="main_section">
+            <div class="main_section__title">Support Your Local Artisans</div>
+            <div class="main_section__description">Discover brands and theit stories</div>
+            <button class="main_section__button">Browse bands</button>
+            <div class="main_section__image">
+                <img src="assets/main_picture/main_picture.svg" alt="img">
+            </div>
+        </section>
+        <!-- Main Picture -->
 
-    <!-- Latest Offers -->
-    <section class="offers">
-        <div class="offers__title">Latest <span class="orange">Offers</span></div>
-        <nav class="offers__cards">
-            <div class="offers__cards__item">
-                <img src="assets/offers/offers1.svg" alt="offer" />
-                <div class="offers__cards__item__name">Pepperoni Pizza</div>
-                <div class="offers__cards__item__prices">
-                    <div class="offers__cards__item__prices__price">$19.99</div>
-                    <div class="offers__cards__item__prices__price crossed_out">$24.99</div>
-                </div>
-                <button class="offers__cards__item__button">Quick Shop</button>
-            </div>
-            <div class="offers__cards__item">
-                <img src="assets/offers/offers2.svg" alt="offer" />
-                <div class="offers__cards__item__name">Baked Pancakes</div>
-                <div class="offers__cards__item__prices">
-                    <div class="offers__cards__item__prices__price">$35.99</div>
-                    <div class="offers__cards__item__prices__price crossed_out">$44.99</div>
-                </div>
-                <button class="offers__cards__item__button">Quick Shop</button>
-            </div>
-            <div class="offers__cards__item">
-                <img src="assets/offers/offers3.svg" alt="offer" />
-                <div class="offers__cards__item__name">Avocado</div>
-                <div class="offers__cards__item__prices">
-                    <div class="offers__cards__item__prices__price">$17.99</div>
-                    <div class="offers__cards__item__prices__price crossed_out">$20.99</div>
-                </div>
-                <button class="offers__cards__item__button">Bunch of Orange</button>
-            </div>
-            <div class="offers__cards__item">
-                <img src="assets/offers/offers4.svg" alt="offer" />
-                <div class="offers__cards__item__name">Pepperoni Pizza</div>
-                <div class="offers__cards__item__prices">
-                    <div class="offers__cards__item__prices__price">$24.99</div>
-                    <div class="offers__cards__item__prices__price crossed_out">$29.99</div>
-                </div>
-                <button class="offers__cards__item__button">Quick Shop</button>
-            </div>
-        </nav>
-    </section>
-    <!-- Latest Offers -->
-
-    <!-- Why Choose the Premium Bakery Quality -->
-    <section class="why_choose">
-        <div class="why_choose__title">Why Choose <span class="orange"> the Premium Bakery Quality</span></div>
-        <nav class="why_choose__list">
-            <div class="why_choose__list__item">
-                <img class="why_choose__list__item__image" src="assets/why_choose/telescope.svg" alt="img" />
-                <div class="why_choose__list__item__title">Discover new flavours & people</div>
-                <div class="why_choose__list__item__description">Discover new tastes, flavours, snacks and recipes to make wonderful meals. Also find out where your food comes from and who makes it.</div>
-            </div>
-            <div class="why_choose__list__item">
-                <img class="why_choose__list__item__image" src="assets/why_choose/wholesale.svg" alt="img" />
-                <div class="why_choose__list__item__title">Buy wholesale</div>
-                <div class="why_choose__list__item__description">We offer bulk formats, variety cases, and discovery boxes so you can save money on delicious foods by buying at wholesale prices. </div>
-            </div>
-            <div class="why_choose__list__item">
-                <img class="why_choose__list__item__image" src="assets/why_choose/support.svg" alt="img" />
-                <div class="why_choose__list__item__title">Support your community </div>
-                <div class="why_choose__list__item__description">By buying in bulk from local and Canadian producers you are helping grow our local food ecosystem, creating jobs, and supporting families and entrepreneurs in your community.</div>
-            </div>
-            <div class="why_choose__list__item">
-                <img class="why_choose__list__item__image" src="assets/why_choose/like.svg" alt="img" />
-                <div class="why_choose__list__item__title">Enjoy the best quality</div>
-                <div class="why_choose__list__item__description">We only offer great tasting, all natural foods that are better for you, and organic if possible.</div>
-            </div>
-            <div class="why_choose__list__item">
-                <img class="why_choose__list__item__image" src="assets/why_choose/heart.svg" alt="img" />
-                <div class="why_choose__list__item__title">Enjoy Club Level Service</div>
-                <div class="why_choose__list__item__description">As a member of our club, we will make sure you are delighted with our service or we will make it right!</div>
-            </div>
-        </nav>
-    </section>
-    <!-- Why Choose the Premium Bakery Quality -->
-
-    <!-- Who Makes -->
-    <section class="who_makes">
-        <div class="who_makes__text">
-            <div class="who_makes__text__title"><span class="orange">Who Makes</span> Your Food?</div>
-            <div class="who_makes__text__subtitle">Our mission is to help grow the local food ecosystem in BC and across Canada.  Why? </div>
-            <img class="who_makes__image__mobile" src="assets/who_makes/markus.svg" alt="img" />
-            <div class="who_makes__text__list">
-                <div class="who_makes__text__list__item">
-                    <div class="who_makes__text__list__item__icon">
-                        <img src="assets/who_makes/mark.svg" alt="icon" />
+        <!-- Latest Offers -->
+        <section class="offers">
+            <div class="offers__title">Latest <span class="orange">Offers</span></div>
+            <nav class="offers__cards">
+                <div class="offers__cards__item">
+                    <img src="assets/offers/offers1.svg" alt="offer" />
+                    <div class="offers__cards__item__name">Pepperoni Pizza</div>
+                    <div class="offers__cards__item__prices">
+                        <div class="offers__cards__item__prices__price">$19.99</div>
+                        <div class="offers__cards__item__prices__price crossed_out">$24.99</div>
                     </div>
-                    <div class="who_makes__text__list__item__text">Because it connects us to the land we live on, and to the people who live here.</div>
+                    <button class="offers__cards__item__button">Quick Shop</button>
                 </div>
-                <div class="who_makes__text__list__item">
-                    <div class="who_makes__text__list__item__icon">
-                        <img src="assets/who_makes/mark.svg" alt="icon" />
+                <div class="offers__cards__item">
+                    <img src="assets/offers/offers2.svg" alt="offer" />
+                    <div class="offers__cards__item__name">Baked Pancakes</div>
+                    <div class="offers__cards__item__prices">
+                        <div class="offers__cards__item__prices__price">$35.99</div>
+                        <div class="offers__cards__item__prices__price crossed_out">$44.99</div>
                     </div>
-                    <div class="who_makes__text__list__item__text">Because it’s more meaningful to cook and eat something made by a person nearby than by some distant corporation</div>
+                    <button class="offers__cards__item__button">Quick Shop</button>
                 </div>
-                <div class="who_makes__text__list__item">
-                    <div class="who_makes__text__list__item__icon">
-                        <img src="assets/who_makes/mark.svg" alt="icon" />
+                <div class="offers__cards__item">
+                    <img src="assets/offers/offers3.svg" alt="offer" />
+                    <div class="offers__cards__item__name">Avocado</div>
+                    <div class="offers__cards__item__prices">
+                        <div class="offers__cards__item__prices__price">$17.99</div>
+                        <div class="offers__cards__item__prices__price crossed_out">$20.99</div>
                     </div>
-                    <div class="who_makes__text__list__item__text">Because good local food makes our corner of the world a better place to live</div>
+                    <button class="offers__cards__item__button">Bunch of Orange</button>
                 </div>
-                <div class="who_makes__text__list__item">
-                    <div class="who_makes__text__list__item__icon">
-                        <img src="assets/who_makes/mark.svg" alt="icon" />
+                <div class="offers__cards__item">
+                    <img src="assets/offers/offers4.svg" alt="offer" />
+                    <div class="offers__cards__item__name">Pepperoni Pizza</div>
+                    <div class="offers__cards__item__prices">
+                        <div class="offers__cards__item__prices__price">$24.99</div>
+                        <div class="offers__cards__item__prices__price crossed_out">$29.99</div>
                     </div>
-                    <div class="who_makes__text__list__item__text">Because it supports local jobs</div>
+                    <button class="offers__cards__item__button">Quick Shop</button>
                 </div>
-                <div class="who_makes__text__list__item">
-                    <div class="who_makes__text__list__item__icon">
-                        <img src="assets/who_makes/mark.svg" alt="icon" />
+            </nav>
+        </section>
+        <!-- Latest Offers -->
+
+        <!-- Why Choose the Premium Bakery Quality -->
+        <section class="why_choose">
+            <div class="why_choose__title">Why Choose <span class="orange"> the Premium Bakery Quality</span></div>
+            <nav class="why_choose__list">
+                <div class="why_choose__list__item">
+                    <img class="why_choose__list__item__image" src="assets/why_choose/telescope.svg" alt="img" />
+                    <div class="why_choose__list__item__title">Discover new flavours & people</div>
+                    <div class="why_choose__list__item__description">Discover new tastes, flavours, snacks and recipes to make wonderful meals. Also find out where your food comes from and who makes it.</div>
+                </div>
+                <div class="why_choose__list__item">
+                    <img class="why_choose__list__item__image" src="assets/why_choose/wholesale.svg" alt="img" />
+                    <div class="why_choose__list__item__title">Buy wholesale</div>
+                    <div class="why_choose__list__item__description">We offer bulk formats, variety cases, and discovery boxes so you can save money on delicious foods by buying at wholesale prices. </div>
+                </div>
+                <div class="why_choose__list__item">
+                    <img class="why_choose__list__item__image" src="assets/why_choose/support.svg" alt="img" />
+                    <div class="why_choose__list__item__title">Support your community </div>
+                    <div class="why_choose__list__item__description">By buying in bulk from local and Canadian producers you are helping grow our local food ecosystem, creating jobs, and supporting families and entrepreneurs in your community.</div>
+                </div>
+                <div class="why_choose__list__item">
+                    <img class="why_choose__list__item__image" src="assets/why_choose/like.svg" alt="img" />
+                    <div class="why_choose__list__item__title">Enjoy the best quality</div>
+                    <div class="why_choose__list__item__description">We only offer great tasting, all natural foods that are better for you, and organic if possible.</div>
+                </div>
+                <div class="why_choose__list__item">
+                    <img class="why_choose__list__item__image" src="assets/why_choose/heart.svg" alt="img" />
+                    <div class="why_choose__list__item__title">Enjoy Club Level Service</div>
+                    <div class="why_choose__list__item__description">As a member of our club, we will make sure you are delighted with our service or we will make it right!</div>
+                </div>
+            </nav>
+        </section>
+        <!-- Why Choose the Premium Bakery Quality -->
+
+        <!-- Who Makes -->
+        <section class="who_makes">
+            <div class="who_makes__text">
+                <div class="who_makes__text__title"><span class="orange">Who Makes</span> Your Food?</div>
+                <div class="who_makes__text__subtitle">Our mission is to help grow the local food ecosystem in BC and across Canada.  Why? </div>
+                <img class="who_makes__image__mobile" src="assets/who_makes/markus.svg" alt="img" />
+                <div class="who_makes__text__list">
+                    <div class="who_makes__text__list__item">
+                        <div class="who_makes__text__list__item__icon">
+                            <img src="assets/who_makes/mark.svg" alt="icon" />
+                        </div>
+                        <div class="who_makes__text__list__item__text">Because it connects us to the land we live on, and to the people who live here.</div>
                     </div>
-                    <div class="who_makes__text__list__item__text">Because it makes more sense for the environment</div>
+                    <div class="who_makes__text__list__item">
+                        <div class="who_makes__text__list__item__icon">
+                            <img src="assets/who_makes/mark.svg" alt="icon" />
+                        </div>
+                        <div class="who_makes__text__list__item__text">Because it’s more meaningful to cook and eat something made by a person nearby than by some distant corporation</div>
+                    </div>
+                    <div class="who_makes__text__list__item">
+                        <div class="who_makes__text__list__item__icon">
+                            <img src="assets/who_makes/mark.svg" alt="icon" />
+                        </div>
+                        <div class="who_makes__text__list__item__text">Because good local food makes our corner of the world a better place to live</div>
+                    </div>
+                    <div class="who_makes__text__list__item">
+                        <div class="who_makes__text__list__item__icon">
+                            <img src="assets/who_makes/mark.svg" alt="icon" />
+                        </div>
+                        <div class="who_makes__text__list__item__text">Because it supports local jobs</div>
+                    </div>
+                    <div class="who_makes__text__list__item">
+                        <div class="who_makes__text__list__item__icon">
+                            <img src="assets/who_makes/mark.svg" alt="icon" />
+                        </div>
+                        <div class="who_makes__text__list__item__text">Because it makes more sense for the environment</div>
+                    </div>
                 </div>
+                <button class="who_makes__text__button">Discover our Producers</button>
             </div>
-            <button class="who_makes__text__button">Discover our Producers</button>
-        </div>
-        <img class="who_makes__image" src="assets/who_makes/markus.svg" alt="img" />
-    </section>
-    <!-- Who Makes -->
+            <img class="who_makes__image" src="assets/who_makes/markus.svg" alt="img" />
+        </section>
+        <!-- Who Makes -->
 
-    <!-- Our Charity -->
-    <section class="our_charity">
-        <div class="our_charity__title">Our Charity Partner, City Bakery</div>
-        <img class="our_charity__logo" src="assets/our_charity/logo.svg" alt="logo" />
-        <button class="our_charity__button">Learn more about City Bakery</button>
-    </section>
-    <!-- Our Charity -->
+        <!-- Our Charity -->
+        <section class="our_charity">
+            <div class="our_charity__title">Our Charity Partner, City Bakery</div>
+            <img class="our_charity__logo" src="assets/our_charity/logo.svg" alt="logo" />
+            <button class="our_charity__button">Learn more about City Bakery</button>
+        </section>
+        <!-- Our Charity -->
 
-    <!-- Surprise Someone -->
-    <section class="surprise_someone">
-        <img src="assets/surprise_someone/main_img.svg" alt="img" class="surprise_someone__image"/>
-        <div class="surprise_someone__text">
-           <div class="surprise_someone__text__title">
-                <span class="orange">Surprise Someone</span>
-                Working from Home
-            </div>
-           <div class="surprise_someone__text__description">
-                <div class="surprise_someone__text__description__1">
-                    Do you have a colleague or family member working hard at home? Our Working From Home box of snacks and drinks is the perfect way to put a smile on their face, delivered direct to their door.
+        <!-- Surprise Someone -->
+        <section class="surprise_someone">
+            <img src="assets/surprise_someone/main_img.svg" alt="img" class="surprise_someone__image"/>
+            <div class="surprise_someone__text">
+            <div class="surprise_someone__text__title">
+                    <span class="orange">Surprise Someone</span>
+                    Working from Home
                 </div>
-                <div class="surprise_someone__text__description__2">
-                    To buy for a large group of people, get in touch and we can discuss bespoke bundles and personalised messaging.
+            <div class="surprise_someone__text__description">
+                    <div class="surprise_someone__text__description__1">
+                        Do you have a colleague or family member working hard at home? Our Working From Home box of snacks and drinks is the perfect way to put a smile on their face, delivered direct to their door.
+                    </div>
+                    <div class="surprise_someone__text__description__2">
+                        To buy for a large group of people, get in touch and we can discuss bespoke bundles and personalised messaging.
+                    </div>
+            </div>
+            <button class="surprise_someone__button">Buy Now</button>
+            </div>
+        </section>
+        <!-- Surprise Someone -->
+
+        <!-- Instagram -->
+        <section class="instagram">
+            <div class="instagram__title"><span class="orange underline cursor_pointer">@PremiumBakeryQuality</span> on Instagram</div>
+            <div class="instagram__slider">
+                <div class="instagram__slider__arrow arrow_left"></div>
+                <div class="instagram__sliders">
+                    <div class="instagram__slider__item">
+                        <img src="assets/instagram/cabbage.svg" alt="img" />
+                        <!-- <div>cat</div> -->
+                    </div>
+                    <div class="instagram__slider__item">
+                        <img src="assets/instagram/carrot.svg" alt="img" />
+                        <!-- <div>dog</div> -->
+                    </div>
+                    <div class="instagram__slider__item">
+                        <img src="assets/instagram/croissant.svg" alt="img" />
+                        <!-- <div>mouse</div> -->
+                    </div>
+                    <div class="instagram__slider__item">
+                        <img src="assets/instagram/lemon.svg" alt="img" />
+                        <!-- <div>hen</div> -->
+                    </div>
+                    <div class="instagram__slider__item">
+                        <img src="assets/instagram/avocado.svg" alt="img" />
+                        <!-- <div>bug</div> -->
+                    </div>
                 </div>
-           </div>
-           <button class="surprise_someone__button">Buy Now</button>
-        </div>
-    </section>
-    <!-- Surprise Someone -->
+                <div class="instagram__slider__arrow arrow_right"></div>
+            </div>
+        </section>
+        <!-- Instagram -->
 
-    <!-- Instagram -->
-    <section class="instagram">
-        <div class="instagram__title"><span class="orange underline">@PremiumBakeryQuality</span> on Instagram</div>
-        <div class="instagram__slider">
-            <div class="instagram__slider__arrow arrow_left">
-                <img src="assets/instagram/arrow_left.svg" alt="arrow" />
+        <!-- Tell a Friend -->
+        <section class="tell_friend">
+            <div class="tell_friend__title">Tell a Friend</div>
+            <div class="tell_friend__icons">
+                <img title="Facebook" src="assets/tell_a_friend/facebook.svg" alt="icon" class="tell_friend__icons__item" />
+                <img title="Instagram" src="assets/tell_a_friend/instagram.svg" alt="icon" class="tell_friend__icons__item" />
+                <img title="Twitter" src="assets/tell_a_friend/twitter.svg" alt="icon" class="tell_friend__icons__item" />
+                <img title="Whatsapp" src="assets/tell_a_friend/whatsapp.svg" alt="icon" class="tell_friend__icons__item" />
+                <img title="Messager" src="assets/tell_a_friend/messager.svg" alt="icon" class="tell_friend__icons__item" />
+                <img title="Telegram" src="assets/tell_a_friend/telegram.svg" alt="icon" class="tell_friend__icons__item" />
             </div>
-            <div class="instagram__slider__item">
-                <img src="assets/instagram/cabbage.svg" alt="img" />
-            </div>
-            <div class="instagram__slider__item">
-                <img src="assets/instagram/carrot.svg" alt="img" />
-            </div>
-            <div class="instagram__slider__item">
-                <img src="assets/instagram/croissant.svg" alt="img" />                
-            </div>
-            <div class="instagram__slider__item">
-                <img src="assets/instagram/lemon.svg" alt="img" />
-            </div>
-            <div class="instagram__slider__item">
-                <img src="assets/instagram/avocado.svg" alt="img" />
-            </div>
-            <div class="instagram__slider__arrow arrow_right">
-                <img src="assets/instagram/arrow_right.svg" alt="arrow" />
-            </div>
-        </div>
-    </section>
-    <!-- Instagram -->
-
-    <!-- Tell a Friend -->
-    <section class="tell_friend">
-        <div class="tell_friend__title">Tell a Friend</div>
-        <div class="tell_friend__icons">
-            <img src="assets/tell_a_friend/facebook.svg" alt="icon" class="tell_friend__icons__item" />
-            <img src="assets/tell_a_friend/instagram.svg" alt="icon" class="tell_friend__icons__item" />
-            <img src="assets/tell_a_friend/twitter.svg" alt="icon" class="tell_friend__icons__item" />
-            <img src="assets/tell_a_friend/whatsapp.svg" alt="icon" class="tell_friend__icons__item" />
-            <img src="assets/tell_a_friend/messager.svg" alt="icon" class="tell_friend__icons__item" />
-            <img src="assets/tell_a_friend/telegram.svg" alt="icon" class="tell_friend__icons__item" />
-        </div>
-    </section>
-    <!-- Tell a Friend -->
+        </section>
+        <!-- Tell a Friend -->
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="footer__logo">
             <img src="assets/footer/logo.svg" alt="logo" />
         </div>
-        <div class="footer__item">
-            <div class="footer__item__title">Occasions</div>
-            <div class="footer__item__elements">
-                <div class="footer__item__element">Occasions</div>
-                <div class="footer__item__element">Working From Home</div>
-                <div class="footer__item__element">Snack Time</div>
-                <div class="footer__item__element">Vegan Life</div>
-                <div class="footer__item__element">Baking</div>
-                <div class="footer__item__element">Gifts & Bundles</div>
-                <div class="footer__item__element">Easy Cooking</div>
-                <div class="footer__item__element">All Products</div>
+        <div class="footer__items">
+            <div class="footer__item">
+                <div class="footer__item__title">Occasions</div>
+                <div class="footer__item__elements">
+                    <div class="footer__item__element">Occasions</div>
+                    <div class="footer__item__element">Working From Home</div>
+                    <div class="footer__item__element">Snack Time</div>
+                    <div class="footer__item__element">Vegan Life</div>
+                    <div class="footer__item__element">Baking</div>
+                    <div class="footer__item__element">Gifts & Bundles</div>
+                    <div class="footer__item__element">Easy Cooking</div>
+                    <div class="footer__item__element">All Products</div>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item__title">All Categories</div>
+                <div class="footer__item__elements">
+                    <div class="footer__item__element">Baking</div>
+                    <div class="footer__item__element">Breakfast</div>
+                    <div class="footer__item__element">Condiments</div>
+                    <div class="footer__item__element">Drinks</div>
+                    <div class="footer__item__element">Heat Things Up</div>
+                    <div class="footer__item__element">Meal Solutions</div>
+                    <div class="footer__item__element">Pantry Staples</div>
+                    <div class="footer__item__element">Simmer Sauces</div>
+                    <div class="footer__item__element">Snacks & Treats</div>
+                    <div class="footer__item__element">Spice Up Your Cooking</div>
+                    <div class="footer__item__element">Sweet Tooth</div>
+                    <div class="footer__item__element">Wine & Cheese</div>
+                    <div class="footer__item__element">All Products</div>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item__title">Gifts & Bundles</div>
+                <div class="footer__item__elements">
+                    <div class="footer__item__element">Sweet Tooth Special</div>
+                    <div class="footer__item__element">Discover Local</div>
+                    <div class="footer__item__element">Baking Box</div>
+                    <div class="footer__item__element">Spicy Heat Lover's Box</div>
+                    <div class="footer__item__element">Snacking Sensations</div>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item__title">Our Brands</div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item__title">About Us</div>
             </div>
         </div>
-        <div class="footer__item">
-            <div class="footer__item__title">All Categories</div>
-            <div class="footer__item__elements">
-                <div class="footer__item__element">Baking</div>
-                <div class="footer__item__element">Breakfast</div>
-                <div class="footer__item__element">Condiments</div>
-                <div class="footer__item__element">Drinks</div>
-                <div class="footer__item__element">Heat Things Up</div>
-                <div class="footer__item__element">Meal Solutions</div>
-                <div class="footer__item__element">Pantry Staples</div>
-                <div class="footer__item__element">Simmer Sauces</div>
-                <div class="footer__item__element">Snacks & Treats</div>
-                <div class="footer__item__element">Spice Up Your Cooking</div>
-                <div class="footer__item__element">Sweet Tooth</div>
-                <div class="footer__item__element">Wine & Cheese</div>
-                <div class="footer__item__element">All Products</div>
-            </div>
-        </div>
-        <div class="footer__item">
-            <div class="footer__item__title">Gifts & Bundles</div>
-            <div class="footer__item__elements">
-                <div class="footer__item__element">Sweet Tooth Special</div>
-                <div class="footer__item__element">Discover Local</div>
-                <div class="footer__item__element">Baking Box</div>
-                <div class="footer__item__element">Spicy Heat Lover's Box</div>
-                <div class="footer__item__element">Snacking Sensations</div>
-            </div>
-        </div>
-        <div class="footer__item">
-            <div class="footer__item__title">Our Brands</div>
-        </div>
-        <div class="footer__item">
-            <div class="footer__item__title">About Us</div>
-        </div>
-        </footer>
+    </footer>
     <!-- Footer -->
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
